@@ -22,7 +22,7 @@ import matplotlib.pyplot as plt
 
 
 #data = web.DataReader("AAPL", "yahoo", start, end)
-data = pd.read_csv("./data/LKTB_DAILY.csv", index_col=0, parse_dates=True)
+data = pd.read_csv("./data/daily/lktb.csv", index_col=0, parse_dates=True)
 
 
 # In[5]:
